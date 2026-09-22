@@ -1,5 +1,10 @@
 import type { Metadata } from "next";
-import { Playfair_Display } from "next/font/google";
+import {
+  Playfair_Display, 
+  DM_Sans,
+  Fraunces,
+  JetBrains_Mono,
+} from "next/font/google";
 import "./globals.css";
 
 const playfair = Playfair_Display({
@@ -8,6 +13,22 @@ const playfair = Playfair_Display({
   style: ["normal", "italic"],
   variable: "--font-playfair",
 });
+
+const dmSans = DM_Sans({
+  subsets: ["latin"],
+  variable: "--font-dm-sans",
+});
+
+const fraunces = Fraunces({
+  subsets: ["latin"],
+  variable: "--font-fraunces",
+});
+
+const jetBrainsMono = JetBrains_Mono({
+  subsets: ["latin"],
+  variable: "--font-jetbrains",
+});
+
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -18,7 +39,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en"
-      className={`h-full antialiased`}
+      className={`h-full antialiased ${dmSans.variable} ${fraunces.variable} ${jetBrainsMono.variable}`}
     >
       <body className={`min-h-full flex flex-col ${playfair.variable}`}>{children}</body>
     </html>

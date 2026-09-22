@@ -7,12 +7,12 @@ export default function Hero() {
       ">
       <div className="flex flex-col items-start gap-8">
         <p className="h-fit w-fit p-2 border-2 border-lime-300 rounded-full text-lime-300">● Available for work</p>
-        <h1 className="font-playfair text-7xl font-bold leading-[0.82] tracking-[-0.04em]">
+        <h1 className="font-display text-7xl font-bold leading-[0.82] tracking-[-0.04em]">
           <span className="block text-white">Matheus</span>
           <span className="block italic text-violet-500">Silva</span>
           <span className="block italic text-violet-500">Magalhães<span className="text-lime-400">.</span></span>
         </h1>
-        <p className=" max-w-xl text-lg leading-8 text-zinc-400">
+        <p className="max-w-xl font-sans text-lg leading-8 text-zinc-400">
           Fullstack Developer & UI/UX Designer crafting digital products that
           balance{" "}
           <strong className="font-medium text-white">
@@ -35,6 +35,7 @@ export default function Hero() {
                   px-4
                   py-1.5
                   text-xs
+                  font-mono
                   text-zinc-500
                 "
               >
@@ -51,6 +52,7 @@ export default function Hero() {
               px-7
               py-3
               font-medium
+              font-sans
               text-white
               transition
               hover:bg-violet-400
@@ -67,6 +69,7 @@ export default function Hero() {
               px-7
               py-3
               font-medium
+              font-sans
               text-white
               transition
               hover:bg-zinc-900
@@ -88,27 +91,27 @@ export default function Hero() {
 
           {/* CARD EXPERIÊNCIA */}
           <div className="absolute -left-12 top-12 rounded-2xl border border-zinc-800 bg-zinc-950/90 px-5 py-4 backdrop-blur">
-            <p className="text-2xl font-bold text-white">
+            <p className="text-2xl font-bold text-white font-mono">
               1+
             </p>
-            <p className="text-xs text-zinc-500">
+            <p className="text-xs text-zinc-500 font-mono">
               Years experience
             </p>
           </div>
 
           {/* CARD PROJETOS */}
           <div className="absolute -right-12 bottom-20 rounded-2xl border border-zinc-800 bg-zinc-950/90 px-5 py-4 backdrop-blur">
-            <p className="text-2xl font-bold text-lime-400">
+            <p className="text-2xl font-bold text-lime-400 font-mono">
               2+
             </p>
 
-            <p className="text-xs text-zinc-500">
+            <p className="text-xs text-zinc-500 font-mono">
               Projects shipped
             </p>
           </div>
 
           {/* CARD TECNOLOGIAS */}
-          <div className="absolute -bottom-5 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-xl border border-violet-500/40 bg-violet-500/10 px-5 py-3 text-xs text-violet-300 backdrop-blur">
+          <div className="absolute -bottom-5 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-xl border border-violet-500/40 bg-violet-500/10 px-5 py-3 text-xs text-violet-300 backdrop-blur font-mono">
             React · Node.js · Figma
           </div>
         </div>
