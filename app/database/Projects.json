@@ -4,7 +4,7 @@
     {
       "Image": {
         "alt": "Fintrack",
-        "src": "https://github.com/MattSM22/new-portfolio/blob/master/app/assets/webapplication.png"
+        "src": "/images/webapplication.png"
       },
       "Content": {
         "typeProject": "Web Application",
@@ -22,7 +22,7 @@
     {
       "Image": {
         "alt": "Design Lab",
-        "src": "https://github.com/MattSM22/new-portfolio/blob/master/app/assets/app.png"
+        "src": "/images/app.png"
       },
       "Content": {
         "typeProject": "Component Library",

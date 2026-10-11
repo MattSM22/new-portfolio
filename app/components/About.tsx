@@ -1,5 +1,5 @@
 import textosJson from '@/textos.json';
-import notebook from '@/app/assets/notebook.png';
+import notebook from '@/public/images/notebook.png';
 import Image from 'next/image';
 import CodeCard from '../utils/CodeCard';
 
