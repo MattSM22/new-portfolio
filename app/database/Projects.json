@@ -1,0 +1,40 @@
+
+{
+  "Projects": [
+    {
+      "Image": {
+        "alt": "Fintrack",
+        "src": "https://github.com/MattSM22/new-portfolio/blob/master/app/assets/webapplication.png"
+      },
+      "Content": {
+        "typeProject": "Web Application",
+        "titleProject": "Fintrack",
+        "textProject": "Personal finance dashboard with real-time transaction tracking, budget forecasting, and interactive analytics built with D3.",
+        "toolsProject": [
+          "React.js",
+          "Node.js",
+          "D3.js",
+          "PostgreSQL"
+        ]
+      },
+      "color": "purple"
+    },
+    {
+      "Image": {
+        "alt": "Design Lab",
+        "src": "https://github.com/MattSM22/new-portfolio/blob/master/app/assets/app.png"
+      },
+      "Content": {
+        "typeProject": "Component Library",
+        "titleProject": "DesignLab",
+        "textProject": "60+ accessible, composable React components with full Figma kit integration and automated token extraction.",
+        "toolsProject": [
+          "React.js",
+          "Typescript",
+          "Storybook"
+        ]
+      },
+      "color": "green"
+    }
+  ]
+}
