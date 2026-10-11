@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Carrer from "./components/Carrer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
@@ -12,6 +13,7 @@ export default function Home() {
       <About />
       <Tools />
       <Projects />
+      <Carrer />
     </div>
   );
 }

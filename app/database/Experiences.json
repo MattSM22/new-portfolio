@@ -1,0 +1,53 @@
+
+{
+  "Experiences": [
+    {
+      "id": 1,
+      "title": "Suporte Técnico em TI",
+      "company": "Colégio Sion Ipiranga",
+      "period": "Set. de 2025 — Presente",
+      "description": "Atuo no suporte técnico helpdesk e na administração dos recursos tecnológicos da institução. Prestando suporte ao usuários nas demandas relacionadas a hardware, software, redes, impressoras e sistemas institucionais. Também atuo na administração do sistema RM Totvs na realização, criação e manutenção de usuários, administro perfis de acesso e permissões no sistema, desenvolvo consultas e relatórios personalizados por meio do SQL.",
+      "logo": "/images/sionlogo.jpg",
+      "technologies": [
+        "SQL",
+        "Oracle DB",
+        "Suporte técnico",
+        "Manutenção de computadores"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Programador Trainee",
+      "company": "Siclop Serviços e Sistemas",
+      "period": "Mar. de 2021 — Ago. de 2021",
+      "description": "Atuava com foco na manutenção, implantação de desenvolvimento das soluções tecnologicas voltadas ao setor alimentício especialmente em um sistema de pedidos para pizzária.",
+      "logo": "/images/siclop.png",
+      "technologies": [
+        "Javascript",
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "Node.js",
+        "Git",
+        "Electron.js",
+        "SQL"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Estagiário em TI",
+      "company": "Titan Software Ldta.",
+      "period": "Ago. de 2020 — Out. de 2020",
+      "description": "Auxiliava no desenvolvimento e implantação de soluções tecnologicas em um sistema de ERP voltado ao varejo e atacado, realizava manunteção no sistema vide orientação do meu supervisor.",
+      "logo": "/images/titansoftwarelogo.jpg",
+      "technologies": [
+        "PHP",
+        "HTML",
+        "CSS",
+        "Javascript",
+        "MySQL",
+        "Git"
+      ]
+    }
+  ]
+}
