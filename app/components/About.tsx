@@ -7,7 +7,8 @@ export default function About(){
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-16 min-h-screen max-w-7xl mx-auto px-6 lg:px-12">
       <div className="flex flex-col gap-10">
-        <h1 className="font-display text-7xl font-bold leading-[0.82] tracking-[-0.04em]">Design x Code as one craft.</h1>
+        <span className='text-xs font-mono text-[#7c6cfc] tracking-[0.18em] uppercase'>01 - About</span>
+        <h2 className="font-display text-7xl font-bold leading-[0.82] tracking-[-0.04em]">Design x Code as one craft.</h2>
         <p className="max-w-xl font-sans text-md leading-8 text-zinc-400">{textosJson.aboutMe}</p>
 
         <hr className="text-zinc-600" />
