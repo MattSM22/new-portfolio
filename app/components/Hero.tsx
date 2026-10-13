@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Avatar from "@/app/assets/avatar.jpg";
+import Avatar from "@/public/images/avatar.jpg";
 
 export default function Hero() {
   return (
@@ -85,7 +85,7 @@ export default function Hero() {
           <Image
             src={Avatar}
             alt="Matheus Silva Magalhães"
-            className="aspect-[4/4.3] w-full rounded-[28px] object-cover grayscale
+            className="aspect-[4/4.3] w-full rounded-[28px] object-cover
             "
           />
 
